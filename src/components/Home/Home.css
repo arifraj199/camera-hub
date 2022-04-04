@@ -1,0 +1,36 @@
+.products-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.title-container{
+    width: 800px;
+    margin-top: 80px;
+    text-align: left;
+}
+.title-container h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+.title-container p{
+    font-size: 25px;
+}
+.title-container button{
+    border: none;
+    padding: 15px 25px;
+    font-size: 22px;
+    background-color: rgb(53, 5, 86);
+    color: white;
+    border-radius: 15px;
+}
+.img-container{
+    width:500px;
+    height: 400px;
+}
+.img-container img{
+    width: 100%;
+    border-radius: 8px;
+}
