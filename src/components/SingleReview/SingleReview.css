@@ -10,3 +10,11 @@
     height: 90px;
     border-radius: 50%;
 }
+.single-review p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.single-review .ratings{
+    font-weight: 700;
+    font-size: 18px;
+}

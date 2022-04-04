@@ -8,7 +8,7 @@ const SingleReview = (props) => {
            <img src={picture} alt="" />
            <h2>{name}</h2>
            <p>{description}</p>
-           <p><small>Ratings: {ratings}</small></p> 
+           <p><small className='ratings'>Ratings: {ratings}</small></p> 
         </div>
     );
 };
