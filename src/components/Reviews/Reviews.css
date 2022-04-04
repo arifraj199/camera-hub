@@ -13,3 +13,8 @@
     border-radius: 15px;
     cursor: pointer;
 }
+.customers-review{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 25px;
+}
