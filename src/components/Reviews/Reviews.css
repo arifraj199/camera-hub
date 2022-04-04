@@ -1,0 +1,15 @@
+.reviews-container{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.reviews-container h1{
+    font-size: 50px;
+}
+.reviews-container button{
+    border: none;
+    padding: 15px 35px;
+    font-size: 20px;
+    background-color: rgb(53, 5, 86);
+    color: white;
+    border-radius: 15px;
+}

@@ -1,9 +1,11 @@
 import React from 'react';
+import './Reviews.css'
 
 const Reviews = () => {
     return (
-        <div>
-            <h2>This is Reviews Page</h2>
+        <div className='reviews-container'>
+            <h1>Customer Reviews</h1>
+            
         </div>
     );
 };
