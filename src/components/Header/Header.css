@@ -1,0 +1,24 @@
+.navlink{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.navlink a{
+    margin-right: 15px;
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* responsive for mobile device */
+@media only screen and (max-width:688px) {
+    .navlink{
+        margin-left: 35px;
+    }
+    .navlink a{
+        margin-right: 15px;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}

@@ -1,7 +1,6 @@
 .questions{
     display: grid;
     grid-template-columns: repeat(1,1fr);
-    
     width: 70%;
     margin: 50px auto;
 }
@@ -15,4 +14,11 @@
 }
 .questions div p{
     font-size: 20px;
+}
+
+/* responsive for mobile device */
+@media only screen and (max-width:688px){
+    .questions{
+        width: 100%;
+    }
 }
