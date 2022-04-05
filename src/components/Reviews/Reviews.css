@@ -24,11 +24,12 @@
     .reviews-container h1{
         font-size: 30px;
         width: 450px;
+        margin-top: 50px;
     }
     .customers-review{
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        width: 450px;
+        width: 435px;
         margin-left: 5px;
     }
 }

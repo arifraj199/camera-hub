@@ -13,7 +13,7 @@
 /* responsive for mobile device */
 @media only screen and (max-width:688px) {
     .navlink{
-        margin-left: 35px;
+        margin-left: 18%;
     }
     .navlink a{
         margin-right: 15px;

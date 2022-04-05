@@ -59,7 +59,7 @@ const Dashboard = () => {
           width={500}
           height={400}
           data={data}
-          margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+          margin={{ top: 5, right: 30, left: 0, bottom: 5 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey={"month"} />
@@ -71,7 +71,7 @@ const Dashboard = () => {
       </div>
       <div className="investment-revenue">
         <h2>Investment vs Revenue</h2>
-        <BarChart width={500} height={400} data={data}>
+        <BarChart width={500} height={400} data={data} margin={{ top: 5, right: 30, left: 0, bottom: 5 }}>
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey={"month"} />
           <YAxis dataKey={"investment"} />
