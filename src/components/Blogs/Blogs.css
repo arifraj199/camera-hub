@@ -1,0 +1,18 @@
+.questions{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    
+    width: 70%;
+    margin: 50px auto;
+}
+.questions div{
+    border: 2px solid rgb(234, 230, 230);
+    padding: 20px;
+    margin: 15px;
+    text-align: left;
+    border-radius: 15px;
+    background-color: rgb(252, 237, 214);
+}
+.questions div p{
+    font-size: 20px;
+}

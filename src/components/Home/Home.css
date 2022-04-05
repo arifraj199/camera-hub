@@ -1,11 +1,9 @@
 .products-container{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    /* justify-content: space-between; */
     margin-top: 30px;
     align-items: center;
-    margin-left: 150px;
-    /* margin-right: 80px; */ 
+    margin-left: 100px; 
     margin-bottom: 100px;
 }
 .title-container{
@@ -31,7 +29,7 @@
 .img-container{
     width:500px;
     height: 600px;
-    margin-left: 100px;
+    margin-left: 80px;
 }
 .img-container img{
     width: 100%;
